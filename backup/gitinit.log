@@ -1,0 +1,82 @@
+    1  git init
+    2  ls
+    3  dir
+    4  pwd
+    5  ls -al
+    6  git status
+    7  git add hello.html
+    8  git status
+    9  git commit -m "hello file"
+   10  git status
+   11  git commit -m "hello file"
+   12  git config --golbal "huucally@gmail.com"
+   13  git config --golbal user.email "huucally@gmail.com"
+   14  git config --global user.email "huucally@gmail.com"
+   15  git config --global user.name "Jong Hwan Choi"
+   16  git commit -m "hello file"
+   17  git status
+   18  git remote add origin https://github.com/huucally/phpweb.git
+   19  git push origin master
+   20  git checkout -b subdir01
+   21  git branch
+   22  git add hello2.html 
+   23  git commit -m "hello2 html"
+   24  git push origin subdir01
+   25  git status
+   26  dir
+   27  ls
+   28  ls -al
+   29  git checkout master
+   30  git status
+   31  git checkout subdir01
+   32  git branch
+   33  git status
+   34  l 3 (delta 0), reused 0 (delta 0), pack-reused 0
+   35  To https://github.com/huucally/phpweb.git
+   36   * [new branch]      master -> master
+   37  git pull
+   38  ls
+   39  git checkout master
+   40  git status
+   41  git merge subdir01
+   42  ls
+   43  cd master
+   44  ls -al
+   45  git push origin master
+   46  git add 
+   47  ls
+   48  ls -al
+   49  git status
+   50  git add 
+   51  git add .
+   52  git config --global core.autocrlf false
+   53  git commit -m "php source"
+   54  git push origin master
+   55  git status
+   56  git pull
+   57  git status
+   58  ls
+   59  ls web/
+   60  git pull origin master
+   61  git status
+   62  ls ./web
+   63  vim .git/ignore
+   64  ls
+   65  cd .git
+   66  ls -al
+   67  exit
+   68  history
+   69  git status
+   70  git add
+   71  git status
+   72  git add index_0330.php 
+   73  git commit -m "mobile pc choice"
+   74  git push origin master
+   75  git status
+   76  history
+   77  exit
+   78  git status
+   79  history
+   80  git
+   81  history
+   82  history > gitinit.log
